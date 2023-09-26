@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+header {
+    width: ;
+    background-image: url('images/HeaderImg.jpg');
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130px;
+    overflow: hidden;
+    position: relatie;
+    box-shadow: 2px 2px 2px rgb(45, 32, 49);
+    opacity: 0.9;
+}
+#logo {
+    height: 150px;
+    width: 220px;
+    padding-bottom: 10px;
+}
+
+.lg {
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+    background-color: rgb(137, 163, 236);
+}
+
+.content{
+    text-align: center;
+    padding: 50px;
+    line-height: 25px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content p{
+    padding-top: 15px;
+}
+
+
+.generator {
+    width: 350px;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#card {
+    width: 95%;
+    padding: 30px 20px;
+    box-shadow: 0 10px 30px black;
+    border-radius: 8px;
+}
+
+#card img {
+    display: block;
+    width: 180px;
+    max-height: 200px;
+    position: relative;
+    margin: 20px auto;
+  }
+
+  .hp {
+    width: 80px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 400;
+  }
+  .poke-name {
+    text-align: center;
+    font-weight: 600;
+  }
+  .types {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 40px 0;
+  }
+  .hp span,
+  .types span {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+  }
+  .types span {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+  }
+  .stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .stats p {
+    color: #404060;
+  }
+  #btn {
+    display: block;
+    padding: 15px 60px;
+    font-size: 18px;
+    background-color: #101010;
+    color: #ffffff;
+    position: relative;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #btn:hover {
+    background-color: #404060;
+  }
