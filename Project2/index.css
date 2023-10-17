@@ -114,7 +114,7 @@ nav {
 }
 
 .intro {
-    padding-top: 50px;
+    margin-top: 50px;
     line-height: 30px;
     margin: 20px;
     height: ;
@@ -163,7 +163,7 @@ nav {
     display: block;
     border-radius: 3000px;
     margin-bottom: 150px;
-    margin-left: 170px;
+    margin-left: 140px;
     background-color: red;
     grid-column-start: 2;
     grid grid-column-end: 3;
@@ -181,8 +181,7 @@ nav {
 #about {
     margin: 20px;
     height: ;
-    margin-top: 30px;
-    margin-bottom: 120px;
+    margin-top: 150px;
 }
 
 #about-content {
@@ -284,9 +283,6 @@ h1 {
     color: #163086;
 }
 
-.site_menu {
-    display: none;
-}
 
 @keyframes slideRight {
     0%{
@@ -326,7 +322,7 @@ h1 {
 }
 
 .logs {
-    width:100%;
+    width:400px;
     height:auto;
     display: block;
     overflow: hidden;
@@ -337,7 +333,7 @@ h1 {
 .logs-container {
    margin-top: 50px;
    margin-left: 0px;
-   width: 410px;
+   width: 400px
    overflow: hidden;
    position: relative;
    border-radius: 10px;
@@ -395,7 +391,6 @@ h1 {
     align-items: center;
     justify-content: center;
     height: ;
-    margin-top: 100px;
 }
 
 #projects > div{
@@ -571,7 +566,6 @@ h1 {
      }
      .logs-container{
         margin-top: 0;
-        width: 380px;
      }
      /*.presentation {
         display: grid;
@@ -604,8 +598,6 @@ h1 {
         display: inline;
         font-size: 50px;
         color: white;
-        margin-left: 80px;
-        margin-bottom: 3px;
     }
     .icons a {
         display: none;
@@ -618,6 +610,9 @@ h1 {
         padding: 10px;
     }
 }
+@media screen and (min-width: 9px) and (max-width: 10px) {
+    width: ;
+}
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .presentation {
@@ -626,9 +621,6 @@ h1 {
         grid-template-columns: 99%;
         align-self: center;
         justify-self: center;
-    }
-    .intro {
-        margin-bottom: 120px;
     }
     
     .text {
@@ -660,9 +652,7 @@ h1 {
         display: inline;
         font-size: 50px;
         color: white;
-        cursor: pointer;
     }
-
     .icons a {
         display: none;
     }
@@ -738,49 +728,7 @@ h1 {
     #backg > div {
         margin-bottom: 10px;
     }
-    #about {
-        margin-top: 80px;
     }
-    .site_menu {
-        position: fixed;
-    top: 0;
-    right: -250px; /* Move the menu off-screen to the right */
-    width: 250px;
-    height: 100%;
-    background: #333; /* Sidebar background color */
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    transition: right 0.3s;
-    z-index: 9999;
-    }
-    .site_menu nav {
-        position: fixed;
-    height: 100%;
-    max-width: 250px;
-    width: 100%;
-    background: #451266b6;
-    overflow: auto;
-    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.4);
-    top: 0;
-    right: 0;
-    }
-    .sidebar-menu {
-        margin-top: 60px;
-        padding:0;
-    }
-    .sidebar-menu li {
-        padding-top: 20px;
-    }
-    .menu:hover + .site_menu, .site_menu:hover {
-        display: block;
-}
-    .menu {
-        right: 0;
-        position: fixed;
-
-    }
-}
     @media screen and (min-width: 400px) and (max-width: 576px) {
         .presentation {
             display: grid;
@@ -925,45 +873,6 @@ h1 {
         #about {
             margin-bottom: 0px;
          }
-         .site_menu {
-            position: fixed;
-        top: 0;
-        right: -250px; /* Move the menu off-screen to the right */
-        width: 250px;
-        height: 100%;
-        background: #333; /* Sidebar background color */
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        transition: right 0.3s;
-        z-index: 9999;
-        }
-        .site_menu nav {
-            position: fixed;
-        height: 100%;
-        max-width: 250px;
-        width: 100%;
-        background: #451266b6;
-        overflow: auto;
-        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.4);
-        top: 0;
-        right: 0;
-        }
-        .sidebar-menu {
-            margin-top: 60px;
-            padding:0;
-        }
-        .sidebar-menu li {
-            padding-top: 20px;
-        }
-        .menu:hover + .site_menu, .site_menu:hover {
-            display: block;
-    }
-        .menu {
-            right: 0;
-            position: fixed;
-    
-        }
     }
 
     @media screen and (max-width: 399px) {
@@ -1134,43 +1043,4 @@ h1 {
              #me {
                 padding-top: 15px;
              }
-             .site_menu {
-                position: fixed;
-            top: 0;
-            right: -250px; /* Move the menu off-screen to the right */
-            width: 250px;
-            height: 100%;
-            background: #333; /* Sidebar background color */
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            transition: right 0.3s;
-            z-index: 9999;
-            }
-            .site_menu nav {
-                position: fixed;
-            height: 100%;
-            max-width: 250px;
-            width: 100%;
-            background: #451266b6;
-            overflow: auto;
-            box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.4);
-            top: 0;
-            right: 0;
-            }
-            .sidebar-menu {
-                margin-top: 60px;
-                padding:0;
-            }
-            .sidebar-menu li {
-                padding-top: 20px;
-            }
-            .menu:hover + .site_menu, .site_menu:hover {
-                display: block;
-        }
-            .menu {
-                right: 0;
-                position: fixed;
-        
-            }
         }
