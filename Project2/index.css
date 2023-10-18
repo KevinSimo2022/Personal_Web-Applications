@@ -3,11 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-#backg > h2 {
-    font-weight: bolder;
-    color: #6e33cc;
-    font-size: 20px;
-}
+
 header {
     position: fxed;
     width: 100%;
@@ -364,6 +360,10 @@ h1 {
 
 #backg > h2 {
     margin-top: 20px;
+    font-weight: bolder;
+        color: #5c1bc5;
+        font-size: 20px;
+        margin-bottom: 8px;
 }
 
 .cards {
@@ -475,7 +475,7 @@ h1 {
     display: none;
 }
 .read-more-text{
-    display: non;
+    display: none;
 }
 
 .read-more-text--show{
@@ -757,12 +757,6 @@ h1 {
     #projects {
         padding-top: 50px;
     }
-    #backg > h2 {
-        font-weight: bolder;
-        color: #7125eb;
-        font-size: 20px;
-        margin-bottom: 8px;
-    }
     #backg > div > span{
         font-weight: bold;
         margin-bottom: 20px;
@@ -1005,13 +999,6 @@ h1 {
         #projects {
             padding-top: 0px;
         }
-        #backg > h2 {
-            font-weight: bolder;
-            color: #2047c9;
-            font-size: 20px;
-            margin-bottom: 8px;
-            margin-top: 0px;
-        }
         #backg > div > span{
             font-weight: bold;
             margin-bottom: 20px;
@@ -1145,16 +1132,6 @@ h1 {
 .hidden {
     display: none;
   }
-  .read-more-btn {
-    display: inline-block;
-}
-.read-more-text{
-    display: none;
-}
-
-.read-more-text--show{
-    display: inline;
-}
     }
 
     @media screen and (max-width: 399px) {
@@ -1284,13 +1261,6 @@ h1 {
             }
             #projects {
                 padding-top: 0px;
-            }
-            #backg > h2 {
-                font-weight: bolder;
-                color: #2047c9;
-                font-size: 20px;
-                margin-bottom: 8px;
-                margin-top: 0px;
             }
             #backg > div > span{
                 font-weight: bold;
