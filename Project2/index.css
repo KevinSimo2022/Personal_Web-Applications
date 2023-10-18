@@ -59,7 +59,6 @@ body {
 .logo {
     height: 60px;
     border-radius: 70px;
-    color: red;
     display: flex;
     align-items: center;
     padding-bottom: 10px;
