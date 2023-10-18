@@ -202,7 +202,11 @@ nav {
 }
 .mennu {
     display: none;
+    z-index: 10000;
 }
+.mennu li.hidden {
+    display: none;
+  }
 .withline {
     position: relative;
     display: inline-block;
@@ -395,7 +399,7 @@ h1 {
     margin: 20px;
     align-items: center;
     justify-content: center;
-    height: ;
+    margin-bottom: 150px;
 }
 
 #projects > div{
@@ -788,16 +792,14 @@ h1 {
   font-size: 1.4em;
 }
 .mennu li a.search:before {
-  content: "\f002";
+  content: "\f007";
 }
-.mennu li a.archive:before {
-  content: "\f187";
-}
+
 .mennu li a.pencil:before {
-  content: "\f040";
+  content: "\f0b1";
 }
 .mennu li a.contact:before {
-  content: "\f003";
+  content: "\f2c2";
 }
 .mennu li a.about:before {
   content: "\f07c";
@@ -810,8 +812,11 @@ h1 {
 .menu-bar li a:hover,
 .mennu li a:hover,
 .mennu li:first-child a {
-  background: #42098d;
+  background: #42098d65;
+  border-radius: 15px;
   color: #e9e5eec7;
+  margin-right: 10px;
+  margin-top: 3px;
 }
 .menu-bar{
     overflow:hidden;
@@ -1044,30 +1049,31 @@ h1 {
   font-size: 1.4em;
 }
 .mennu li a.search:before {
-  content: "\f002";
-}
-.mennu li a.archive:before {
-  content: "\f187";
-}
-.mennu li a.pencil:before {
-  content: "\f040";
-}
-.mennu li a.contact:before {
-  content: "\f003";
-}
-.mennu li a.about:before {
-  content: "\f007";
-}
-.mennu li a.home:before {
-  content: "\f039";
-  padding-right: px;
-  font-size: 30px;
-}
+    content: "\f007";
+  }
+  
+  .mennu li a.pencil:before {
+    content: "\f0b1";
+  }
+  .mennu li a.contact:before {
+    content: "\f2c2";
+  }
+  .mennu li a.about:before {
+    content: "\f07c";
+  }
+  .mennu li a.home:before {
+    content: "\f039";
+    padding-right: px;
+    font-size: 30px;
+  }
 .menu-bar li a:hover,
 .mennu li a:hover,
 .mennu li:first-child a {
-  background: #42098d;
-  color: #e9e5eec7;
+    background: #42098d65;
+    border-radius: 15px;
+    color: #e9e5eec7;
+    margin-right: 10px;
+    margin-top: 3px;
 }
 .menu-bar{
     overflow:hidden;
@@ -1120,6 +1126,9 @@ h1 {
                 grid-template-columns: 99%;
                 align-self: center;
                 justify-self: center;
+            }
+            .logo {
+                margin-top: 10px;
             }
             header {
                 padding-top: 15px;
@@ -1324,30 +1333,31 @@ h1 {
   font-size: 1.4em;
 }
 .mennu li a.search:before {
-  content: "\f002";
-}
-.mennu li a.archive:before {
-  content: "\f187";
-}
-.mennu li a.pencil:before {
-  content: "\f040";
-}
-.mennu li a.contact:before {
-  content: "\f003";
-}
-.mennu li a.about:before {
-  content: "\f007";
-}
-.mennu li a.home:before {
-  content: "\f039";
-  padding-right: px;
-  font-size: 30px;
-}
+    content: "\f007";
+  }
+  
+  .mennu li a.pencil:before {
+    content: "\f0b1";
+  }
+  .mennu li a.contact:before {
+    content: "\f2c2";
+  }
+  .mennu li a.about:before {
+    content: "\f07c";
+  }
+  .mennu li a.home:before {
+    content: "\f039";
+    padding-right: px;
+    font-size: 30px;
+  }
 .menu-bar li a:hover,
 .mennu li a:hover,
 .mennu li:first-child a {
-  background: #42098d;
-  color: #e9e5eec7;
+    background: #42098d65;
+    border-radius: 15px;
+    color: #e9e5eec7;
+    margin-right: 10px;
+    margin-top: 3px;
 }
 .menu-bar{
     overflow:hidden;
@@ -1392,3 +1402,4 @@ h1 {
     display: none;
   }
         }
+overflow-x: hidden;

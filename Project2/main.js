@@ -1,16 +1,26 @@
-// Get a reference to the "Home" button and sections to toggle
+// Get references to elements
 const homeButton = document.querySelector('.home');
-const sectionsToToggle = document.querySelectorAll('.hidden');
+const menuItems = document.querySelectorAll('.mennu li.hidden');
 const menuBackground = document.querySelector('.menu-background');
 
 // Add a click event listener to the "Home" button
 homeButton.addEventListener('click', () => {
-  // Loop through the sections to toggle and toggle the "hidden" class
-  sectionsToToggle.forEach(section => {
-    section.classList.toggle('hidden');
+  menuItems.forEach(item => {
+    item.classList.toggle('hidden');
   });
 
   // Toggle the menu background
   menuBackground.classList.toggle('hidden');
+});
+
+// Add click event listeners for menu items to hide the menu
+menuItems.forEach(item => {
+  item.addEventListener('click', () => {
+    menuItems.forEach(item => {
+      item.classList.add('hidden');
+    });
+
+    menuBackground.classList.add('hidden');
+  });
 });
 
