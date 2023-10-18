@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tektur">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="sidebr.css">
 </head>
 <body>
     <header>
-        <a href="#about" class="logo" style="--i:1;">K.<span class="s">S</span></a>
+        
+        <a href="#about" class="logo" style="--i:1;" >K.<span class="s">S</span></a>
         <ul class="navbar">
             <li><a href="#about" class="sections" style="--i:1;">About</a></li>
             <li><a href="#" class="sections" style="--i:2;">Experience</a></li>
@@ -35,9 +37,21 @@
             <a href="https://wa.link/rcuz40" target="_blank" class="sm-icon">
                 <ion-icon name="logo-whatsapp"></ion-icon>
             </a>
-            <div class="menu"><ion-icon name="menu"></ion-icon></div>
         </div>
-        
+        <ul class="mennu">
+
+            <li title="home"><a href="#" class="menu-button home">menu</a></li>
+            
+            <li title="search" class="hidden"><a href="#" class="search">About</a></li>
+            <li title="pencil" class="hidden"><a href="#" class="pencil">Experience</a></li>
+            <li title="about" class="hidden"><a href="#" class="active about">Projects</a></li>
+            <li title="archive" class="hidden"><a href="#" class="archive">Contacts</a></li>
+            <li title="contact" class="hidden"><a href="#" class="contact">contact</a></li>
+          </ul>
+      </header>
+      
+      
+
         <!---<nav class="container">
             <div class="logo-box">
                 <p class="logo">K.<span class="s">S</span></p>
@@ -63,7 +77,7 @@
                 </a>
             </div>
         </nav>--->
-    </header>
+
     <section class="intro">
         <div class="presentation">
         <div class="text">
@@ -230,6 +244,7 @@
         AOS.init();
       </script>      
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
 </body>
 </html>
 
