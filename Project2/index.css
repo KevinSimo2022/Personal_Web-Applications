@@ -276,6 +276,9 @@ h1 {
     padding-top: 0px;
     height: ;
 }
+#experience h1{
+    margin-bottom: 15px;
+}
 
 
 .logo {
@@ -475,7 +478,7 @@ h1 {
     display: none;
 }
 .read-more-text{
-    display: none;
+    display: noe;
 }
 
 .read-more-text--show{
@@ -1132,6 +1135,16 @@ h1 {
 .hidden {
     display: none;
   }
+  .read-more-btn {
+    display: inline-block;
+}
+.read-more-text{
+    display: none;
+}
+
+.read-more-text--show{
+    display: inline;
+}
     }
 
     @media screen and (max-width: 399px) {
