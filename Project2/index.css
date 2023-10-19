@@ -453,11 +453,12 @@ h1 {
 
 
 .img-cont {
-    width: 250px;
+    width: 300px;
     height: 200px;
     overflow: hidden;
     position: relative;
     border-radius: 10px;
+    background-size: cover;
 }
 
 .proj-img {
