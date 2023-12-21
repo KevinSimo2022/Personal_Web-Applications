@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+#project {
+    width: 400px;
+}
 header {
     position: fxed;
     width: 100%;
@@ -454,7 +457,7 @@ h1 {
 
 .img-cont {
     width: 300px;
-    height: 200px;
+    height: 100ù;
     overflow: hidden;
     position: relative;
     border-radius: 10px;
