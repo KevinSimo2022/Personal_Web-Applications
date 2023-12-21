@@ -8,7 +8,7 @@
     width: 400px;
 }
 header {
-    position: fxed;
+    position: fixed;
     width: 100%;
     top: 0;
     right: 0;
@@ -18,6 +18,11 @@ header {
     justify-content: space-between;
     background: transparent;
     padding: 28px 12%;
+    background-color: #36066d;
+}
+
+.intro {
+    padding-top: 200px;
 }
 
 body {
