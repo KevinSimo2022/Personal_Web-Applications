@@ -413,7 +413,7 @@ h1 {
     margin: 20px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 #projects > div{
@@ -462,7 +462,7 @@ h1 {
 
 .img-cont {
     width: 300px;
-    height: 100ù;
+    height: 200px;
     overflow: hidden;
     position: relative;
     border-radius: 10px;
@@ -1446,3 +1446,71 @@ overflow-x: hidden;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+
+#dribbble-portfolio {
+    padding: 50px ;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+section#dribbble-portfolio {
+    margin-bottom: 200px;
+    padding: 20px ;
+}
+
+.withline {
+    margin-bottom: 30px;
+    font-size: 2em;
+    position: relative;
+}
+
+.withline .parts {
+    color: #06bd9e; /* Color for the section number */
+}
+
+.dribbble-shots-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.dribbble-card {
+    background-color: rgba(159, 44, 212, 0.205);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    text-align: left;
+}
+
+.dribbble-iframe {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    border: none;
+}
+
+.dribbble-info {
+    padding: 15px;
+}
+
+.dribbble-info h2 {
+    font-size: 1.2em;
+    color: white;
+}
+
+.dribbble-info p {
+    font-size: 0.9em;
+    color: white;
+}
+
+.view-project {
+    display: inline-block;
+    margin-top: 10px;
+    color: #06bd9e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.view-project:hover {
+    text-decoration: underline;
+}
