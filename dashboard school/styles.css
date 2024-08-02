@@ -1,0 +1,17 @@
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+body.dark-mode {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+table.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, .15);
+}

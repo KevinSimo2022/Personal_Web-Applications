@@ -5,7 +5,7 @@
 }
 
 #project {
-    width: 400px;
+    width: 350px;
 }
 header {
     position: fixed;
@@ -282,7 +282,7 @@ h1 {
 #experience {
     margin: 20px;
     padding-top: 0px;
-    height: ;
+
 }
 #experience h1{
     margin-bottom: 15px;
